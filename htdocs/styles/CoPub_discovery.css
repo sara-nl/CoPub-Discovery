@@ -1,0 +1,90 @@
+table.border { border-color: #dcdce9;
+               border-style: solid;
+	       border-width: 2px; }
+	       
+td {font-family:Arial; font-size:11pt}
+a {text-decoration:none;font-weight:bold}
+a:hover { text-decoration:underline }
+a:link { color: #0094D9}
+a:visited { color: #0094D9}
+td.h2 {color:white; 
+       background-color:#0094D9;
+       font-size:large; 
+       font-weight:bold;
+       text-align:center}
+td.h3 {color:white; 
+       background-color:#0094D9;
+       font-size:medium; 
+       font-weight:bold;
+       text-align:center}
+td.h4 {color:white; 
+       background-color:#0094D9;
+       font-size:small; 
+       font-weight:bold;
+       text-align:center}
+td.h5 { color: #0d2474;
+        background-color:#dcdce9;} 
+td.h6 { color: #0d2474;
+        font-size:14pt}
+td.h7 { color: #0d2474;
+        font-size:12pt}       
+       
+	
+p {font-family:arial; font-size:11pt}
+.hit_b { color:#00CC00;font-weight:bold}
+.hit_a { color:red;font-weight:bold}
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+margin: 0 0.15em;
+float: left; 
+}
+
+#nav-menu li a
+{
+background: url(../images/css-nav.gif) #fff bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 13em;
+display: block;
+border: 0.1em solid #dcdce9;
+color: #0d2474;
+text-decoration: none;
+text-align: center;
+}
+
+#nav-menu li a:hover
+{
+background: url(../images/css-nav.gif) #fff bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 13em;
+display: block;
+border: 0.1em solid #dcdce9;
+color: #0d2474;
+text-decoration: underline;
+text-align: center;
+}
+
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none
+}
+/* End hide */
+
+#nav-menu
+{
+width:42.1em;
+/* 54 */
+}
+
